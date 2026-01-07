@@ -317,7 +317,7 @@ export const AdminDashboard = () => {
                                             }}
                                         />
                                         <Bar dataKey="value" radius={[0, 4, 4, 0]} barSize={20}>
-                                            {chartData.map((entry, index) => (
+                                            {chartData.map((_, index) => (
                                                 <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} fillOpacity={0.8} />
                                             ))}
                                         </Bar>
