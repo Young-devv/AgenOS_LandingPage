@@ -8,8 +8,6 @@ import { OrchestrationFlow } from './components/sections/OrchestrationFlow';
 import { DataIntegration } from './components/sections/DataIntegration';
 import { UseCases } from './components/sections/UseCases';
 import { Comparison } from './components/sections/Comparison';
-import { Testimonials } from './components/sections/Testimonials';
-import { Pricing } from './components/sections/Pricing';
 import { Waitlist } from './components/sections/Waitlist';
 import { AdminDashboard } from './pages/AdminDashboard';
 import { AdminLogin } from './pages/AdminLogin';
