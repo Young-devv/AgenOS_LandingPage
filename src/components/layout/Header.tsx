@@ -47,7 +47,6 @@ export const Header = () => {
                     {/* CTA & Mobile Toggle */}
                     <div className="flex items-center space-x-4">
                         <div className="hidden md:block">
-                            <Button size="sm" variant="ghost" className="mr-2">Log in</Button>
                             <a href="#waitlist">
                                 <Button size="sm">Join the Waitlist</Button>
                             </a>
@@ -89,3 +88,4 @@ export const Header = () => {
         </header>
     );
 };
+
